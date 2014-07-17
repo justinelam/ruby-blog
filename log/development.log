@@ -209,3 +209,36 @@ Started GET "/" for 67.207.104.74 at 2014-07-17 03:33:28 +0000
 Processing by Rails::WelcomeController#index as HTML
   Rendered /home/ec2-user/.rvm/gems/ruby-2.0.0-p481/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (1.1ms)
 Completed 200 OK in 11ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 67.207.104.74 at 2014-07-17 03:57:51 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.0.0-p481/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 67.207.104.74 at 2014-07-17 03:59:07 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.207.104.74 at 2014-07-17 03:59:08 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 67.207.104.74 at 2014-07-17 03:59:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 67.207.104.74 at 2014-07-17 03:59:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 67.207.104.74 at 2014-07-17 03:59:08 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 67.207.104.74 at 2014-07-17 03:59:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 67.207.104.74 at 2014-07-17 03:59:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.207.104.74 at 2014-07-17 03:59:08 +0000
